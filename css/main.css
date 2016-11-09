@@ -8,8 +8,68 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
 }
 
-/** font-family: 'Roboto', sans-serif; (regular)**/
-/*font-family: 'Roboto Condensed', sans-serif;*/
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  width: 25%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.left-right {
+  overflow: hidden;
+  position: absolute;
+  top: 3rem;
+
+  bottom: 8rem;
+
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 50em;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
+  background-color: #333;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: 3px solid #000;
+  cursor: pointer;
+}
